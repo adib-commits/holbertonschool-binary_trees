@@ -58,5 +58,5 @@ return (0);
 
 d = depth_left(tree);
 
-return (is_perfect(tree, d, 1));
+return (is_perfect(tree, d, 0));
 }
